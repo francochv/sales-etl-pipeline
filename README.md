@@ -26,7 +26,12 @@ Pipeline ETL automatizado que procesa datos de ventas desde archivos CSV, realiz
 
 ## 📁 Estructura del Proyecto
 
-sales-etl-pipeline/ ├── data/ # Datos raw y procesados ├── src/ # Código fuente ├── notebooks/ # Análisis exploratorio ├── tests/ # Tests unitarios └── config/ # Archivos de configuración
+sales-etl-pipeline/ 
+├── data/ # Datos raw y procesados 
+├── src/ # Código fuente 
+├── notebooks/ # Análisis exploratorio 
+├── tests/ # Tests unitarios 
+     └── config/ # Archivos de configuración
 
 ## 🚀 Instalación
 
@@ -49,9 +54,13 @@ python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
 3.	Instalar dependencias:
-```pip install -r requirements.txt```
-4.	Configurar variables de entorno:
-```cp .env.example .env```
+```
+pip install -r requirements.txt
+```
+5.	Configurar variables de entorno:
+```
+cp .env.example .env
+```
 # Editar .env con tus credenciales
 💻 Uso
 Ejecutar pipeline completo:
