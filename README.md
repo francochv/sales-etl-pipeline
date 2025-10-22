@@ -61,6 +61,7 @@ pip install -r requirements.txt
 ```
 cp .env.example .env
 ```
+
 # Editar .env con tus credenciales
 💻 Uso
 Ejecutar pipeline completo:
