@@ -71,6 +71,7 @@ python src/extract.py
 python src/transform.py
 python src/load.py
 ```
+
 🧪 Testing
 pytest tests/
 📊 Resultados
@@ -90,7 +91,7 @@ CSV Files → Extract → Validate → Transform → Load → PostgreSQL
 📝 Licencia
 Este proyecto está bajo la Licencia MIT - ver LICENSE para detalles.
 👤 Autor
-Tu Nombre
+Franco Chumacero
 •	LinkedIn: www.linkedin.com/in/franco-chumacero-vicente-a14999221
 •	Portfolio: tu-portfolio.lovable.app
 •	Email: francochumacero@outlook.com
