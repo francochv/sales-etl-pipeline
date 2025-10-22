@@ -49,17 +49,19 @@ python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
 3.	Instalar dependencias:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 4.	Configurar variables de entorno:
-cp .env.example .env
+```cp .env.example .env```
 # Editar .env con tus credenciales
 💻 Uso
 Ejecutar pipeline completo:
-python src/pipeline.py
+```python src/pipeline.py```
 Ejecutar etapas individuales:
+```
 python src/extract.py
 python src/transform.py
 python src/load.py
+```
 🧪 Testing
 pytest tests/
 📊 Resultados
