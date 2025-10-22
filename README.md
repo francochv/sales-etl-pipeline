@@ -64,8 +64,10 @@ cp .env.example .env
 
 # Editar .env con tus credenciales
 💻 Uso
+
 Ejecutar pipeline completo:
 ```python src/pipeline.py```
+
 Ejecutar etapas individuales:
 ```
 python src/extract.py
